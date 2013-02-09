@@ -1,9 +1,12 @@
-# Ember.js + deppy • [TodoMVC](http://todomvc.com)
+# Deppy + Ember.js • [TodoMVC](http://todomvc.com)
 
 
-## Running tests
+## Alpha Alpha Alpha
 
-To fire specs runner, append `#specs` to the url in address bar, and reload the webpage.
+I am currently working on publishing everything. This repo contains a working solution, proof of concept, for the elegant Deppy dependency management system.
+
+Follow the action in the [Deppy repo](https://github.com/thanpolas/deppy).
+
 
 
 ## Credit
