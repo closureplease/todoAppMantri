@@ -18,7 +18,7 @@ Todos.App = Ember.Application.create({
 		store: new Todos.models.Store('todos-emberjs')
 	}),
   // define all our templates so we can load via ajax
-  // (templates are out of deppy's scope so tough)
+  // (templates are out of mantri's scope so tough)
   templates: ['clear_button', 'filters', 'items', 'stats'],
 	ready: function() {
     this.loadTemplates(this.templates.shift());
