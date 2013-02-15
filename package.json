@@ -1,0 +1,66 @@
+{
+  "name": "mantri-todoMVC",
+  "description": "Mantri • ember.js • TodoMVC === Mantri Dependency System Showcase",
+  "version": "0.1.0",
+  "homepage": "https://github.com/thanpolas/todoAppMantri",
+  "author": {
+    "name": "Thanasis Polychronakis",
+    "email": "thanpolas@gmail.com",
+    "url": "http://thanpol.as/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thanpolas/todoAppMantri.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thanpolas/todoAppMantri/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/thanpolas/todoAppMantri/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "mantri": "*",
+    "grunt": "0.4.0rc6"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "0.2.0rc7"
+  },
+  "keywords": [
+    "dependencies",
+    "dependency",
+    "deps",
+    "dependency management",
+    "mantri",
+    "ember",
+    "todoMVC",
+    "amd",
+    "commonjs",
+    "require"
+  ],
+
+  "contributors": [
+    {
+      "name": "Thanasis Polychronakis",
+      "email": "thanpolas@gmail.com",
+      "url": "http://thanpol.as/"
+    },
+    {
+      "name": "Tom Dale",
+      "url": "http://github.com/tomdale/"
+    },
+    {
+      "name": "Стас Сушков",
+      "url": "http://github.com/stas"
+    }
+  ]
+}

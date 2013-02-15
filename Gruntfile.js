@@ -18,9 +18,6 @@ module.exports = function( grunt ) {
   //
   //
   grunt.initConfig({
-    // Project configuration
-    // ---------------------
-    //
     mantriDeps: {
       options: {
 
@@ -34,11 +31,12 @@ module.exports = function( grunt ) {
 
     mantriBuild: {
       options: {
-
+        debug: true
       },
       todoApp: {
-        src: 'test/todoApp/mantriConf.json',
-        dest: 'test/todoApp/js/dist/build.js'
+        // src can be omitted as this is also the default value.
+        src: 'mantriConf.json',
+        dest: 'dist/build.js'
       }
     },
 
@@ -51,6 +49,11 @@ module.exports = function( grunt ) {
 
   });
 
+  // Create shortcuts to main operations.
+  grunt.registerTask('deps', ['mantriDeps:todoApp']);
+  grunt.registerTask('build', ['mantriBuild:todoApp']);
+
+  // the default task, when 'grunt' is executed with no options.
   grunt.registerTask('default', ['test']);
 
 };
