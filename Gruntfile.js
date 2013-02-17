@@ -20,10 +20,10 @@ module.exports = function( grunt ) {
   grunt.initConfig({
     mantriDeps: {
       options: {
-
+        root: './'
       },
       todoApp: {
-        src: './',
+        src: 'js',
         dest: './deps.js'
       }
 
