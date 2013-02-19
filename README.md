@@ -9,6 +9,8 @@ A comprehensive showcase for the [Mantri][] Dependency System.
 git clone git@github.com:thanpolas/todoAppMantri.git
 
 cd todoAppMantri
+
+npm install
 ```
 
 ### Launch Static Server
