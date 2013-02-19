@@ -12,6 +12,7 @@ module.exports = function( grunt ) {
   'use strict';
 
   grunt.loadNpmTasks('mantri');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
   //
   // Grunt configuration:
@@ -45,13 +46,24 @@ module.exports = function( grunt ) {
         files: ['js/**/*.js', 'mantriConf.json'],
         tasks: ['mantriDeps:todoApp']
       }
+    },
+    connect: {
+      todoApp: {
+        options: {
+          port: 4242,
+          base: './',
+          keepalive: true
+        }
+      }
     }
+
 
   });
 
   // Create shortcuts to main operations.
   grunt.registerTask('deps', ['mantriDeps:todoApp']);
   grunt.registerTask('build', ['mantriBuild:todoApp']);
+  grunt.registerTask('server', ['connect:todoApp']);
 
   // the default task, when 'grunt' is executed with no options.
   grunt.registerTask('default', ['test']);

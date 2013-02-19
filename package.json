@@ -29,11 +29,12 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "mantri": "0.0.3"
+    "mantri": "0.0.5"
   },
   "devDependencies": {
-    "grunt-contrib-watch": "0.2.0rc7",
-    "grunt": "0.4.0rc8"
+    "grunt-contrib-watch": "0.2.0",
+    "grunt": "0.4.0",
+    "grunt-contrib-connect": "~0.1.2"
   },
   "keywords": [
     "dependencies",
@@ -47,7 +48,6 @@
     "commonjs",
     "require"
   ],
-
   "contributors": [
     {
       "name": "Thanasis Polychronakis",
