@@ -3,8 +3,7 @@
  * Mantri • ember.js • TodoMVC
  * https://github.com/thanpolas/todoAppMantri
  *
- * Copyright (c) 2013 Thanasis Polychronakis,
- *     Tom Dale, Стас Сушков
+ * Copyright (c) 2013 Tom Dale, Стас Сушков, Thanasis Polychronakis
  * Licensed under the MIT license.
  */
 
