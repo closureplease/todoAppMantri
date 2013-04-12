@@ -36,7 +36,7 @@ Todos.views.Application = Ember.ContainerView.extend({
 					this.set( 'value', '' );
 				}
 			}
-		}),
+		})
 	}),
 	mainView: Em.ContainerView.create({
 		elementId: 'main',
@@ -45,7 +45,7 @@ Todos.views.Application = Ember.ContainerView.extend({
 		classNameBindings: [ 'visibility:hidden' ],
 		childViews: [ 'outletView', 'markAllChkbox' ],
 		outletView: Ember.View.create({
-			template: Ember.Handlebars.compile( '{{outlet}}' ),
+			template: Ember.Handlebars.compile( '{{outlet}}' )
 		}),
 		markAllChkbox: Ember.Checkbox.create({
 			entriesBinding: 'controller.namespace.entriesController',
