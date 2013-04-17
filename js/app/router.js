@@ -1,8 +1,6 @@
 goog.provide('Todos.Router');
 
 goog.require('Todos.ctrls.Todos');
-goog.require('Todos.views.Items');
-goog.require('Todos.helper');
 
 /**
 * Todos Router
