@@ -10,8 +10,9 @@
 module.exports = function( grunt ) {
   'use strict';
 
-  grunt.loadNpmTasks('mantri');
-  grunt.loadNpmTasks('grunt-contrib-connect');
+  // load all grunt tasks
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
 
   //
   // Grunt configuration:
@@ -54,18 +55,26 @@ module.exports = function( grunt ) {
           keepalive: true
         }
       }
-    }
+    },
+    open: {
+      server: {
+        path: 'http://localhost:<%= connect.todoApp.options.port %>'
+      }
+    },
 
-
-  });
+  })
 
   // Create shortcuts to main operations.
   grunt.registerTask('deps', ['mantriDeps:todoApp']);
   grunt.registerTask('build', ['mantriBuild:todoApp']);
-  grunt.registerTask('server', ['connect:todoApp']);
+  grunt.registerTask('server', [
+    'open:server',
+    'connect:todoApp'
+
+    ]);
 
   // the default task, when 'grunt' is executed with no options.
-  grunt.registerTask('default', ['test']);
+  grunt.registerTask('default', 'server');
 
 };
 
