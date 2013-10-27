@@ -18,6 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "mantri": "0.2.0-rc2.1"
+    "mantri": "0.2.0-rc2.1",
+    "yepnope": "~1.5.4"
   }
 }

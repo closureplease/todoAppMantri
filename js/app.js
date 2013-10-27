@@ -1,3 +1,5 @@
+/* global Todos */
+/* global Ember */
 // Load our app
 goog.provide('Todos.app');
 
