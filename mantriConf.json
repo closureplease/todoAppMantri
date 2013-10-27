@@ -3,10 +3,8 @@
   "vendorLibs": {
     "jquery": "../assets/jquery.min",
     "handlebars": "../assets/handlebars.min",
-    "ember": "vendor/ember-latest.min",
-    "jasmine": "../assets/jasmine/jasmine",
-    "jasmine_html": "../assets/jasmine/jasmine-html",
-    "hbsCompiled": "app/templates/hbsCompiled"
+    "hbsCompiled": "app/templates/hbsCompiled",
+    "ember": "vendor/ember-latest.min"
   },
 
   "build": {
