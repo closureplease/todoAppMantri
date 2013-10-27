@@ -1,0 +1,23 @@
+{
+  "name": "todoAppMantri",
+  "version": "0.0.0",
+  "homepage": "https://github.com/closureplease/todoAppMantri",
+  "authors": [
+    "Thanasis Polychronakis <thanpolas@gmail.com>"
+  ],
+  "description": "MantriJS Showcase",
+  "main": "js/app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mantri": "0.2.0-rc2.1"
+  }
+}

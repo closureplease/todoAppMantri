@@ -1,0 +1,32 @@
+{
+  "name": "mantri",
+  "version": "0.2.0-rc2.1",
+  "main": "dist/mantri.web.js",
+  "file": "dist/mantri.web.js",
+  "ignore": [
+    ".*",
+    "build",
+    "package.json",
+    "node_modules",
+    "test",
+    "lib",
+    "src",
+    "Gruntfile.js",
+    "README.md",
+    "dist/mantriConf.json",
+    "tasks",
+    "temp",
+    "bower.json"
+  ],
+  "homepage": "https://github.com/closureplease/mantri",
+  "_release": "0.2.0-rc2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.0-rc2.1",
+    "commit": "b0f713ab98ffb216727348f40c3316a24386f769"
+  },
+  "_source": "git://github.com/closureplease/mantri.git",
+  "_target": "0.2.0-rc2.1",
+  "_originalSource": "mantri",
+  "_direct": true
+}
