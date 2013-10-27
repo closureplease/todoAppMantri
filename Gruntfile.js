@@ -62,7 +62,7 @@ module.exports = function( grunt ) {
       }
     },
 
-  })
+  });
 
   // Create shortcuts to main operations.
   grunt.registerTask('deps', ['mantriDeps:todoApp']);
@@ -71,7 +71,7 @@ module.exports = function( grunt ) {
     'open:server',
     'connect:todoApp'
 
-    ]);
+  ]);
 
   // the default task, when 'grunt' is executed with no options.
   grunt.registerTask('default', 'server');
