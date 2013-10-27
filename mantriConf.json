@@ -15,9 +15,10 @@
   "buildModules": [{
     "name": "moduleEntries",
     "src": "js/app-module-entries.js",
-    "dest": "dist/app-module-entries.min.js",
+    "dest": "dist/app-module-entries.min.js"
   }, {
     "name": "moduleApplication",
     "src": "js/app-module-application.js",
-    "dest": "dist/app-module-application.min.js",
+    "dest": "dist/app-module-application.min.js"
+  }]
 }
