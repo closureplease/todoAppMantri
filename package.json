@@ -30,7 +30,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "mantri": "~0.2.0-rc1"
+    "mantri": "~0.2.0-rc2"
   },
   "devDependencies": {
     "grunt-open": "~0.2.2",
