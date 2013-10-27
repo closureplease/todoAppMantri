@@ -1,6 +1,7 @@
 {
   "jsRoot": "./js/",
   "vendorLibs": {
+    "yepnope": "vendor/yepnope/yepnope.1.5.4-min",
     "jquery": "../assets/jquery.min",
     "handlebars": "../assets/handlebars.min",
     "hbsCompiled": "app/templates/hbsCompiled",
@@ -8,6 +9,15 @@
   },
 
   "build": {
-    "src": "js/app.js"
-  }
+    "src": "js/app.js",
+    "outputWrapper": "var COMPILED=true;%output%}"
+  },
+  "buildModules": [{
+    "name": "moduleEntries",
+    "src": "js/app-module-entries.js",
+    "dest": "dist/app-module-entries.min.js",
+  }, {
+    "name": "moduleApplication",
+    "src": "js/app-module-application.js",
+    "dest": "dist/app-module-application.min.js",
 }
