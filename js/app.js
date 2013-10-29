@@ -10,11 +10,7 @@ goog.require('Todos.models.Store');
 
 // load independent modules, when done boot the Todo ember app
 yepnope({
-  // we set the global COMPILED var in the built version 
-  // using the outputWrapper configuration option
-  test: COMPILED,
-  yep: ['/dist/app-module-entries.min.js', '/dist/app-module-application.min.js'],
-  nope: ['/js/app-module-entries.js', '/js/app-module-application.js'],
+  load: ['/dist/app-module-entries.min.js', '/dist/app-module-application.min.js'],
   complete: Todos.app.init
 });
 

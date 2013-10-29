@@ -12,13 +12,12 @@
     "src": "js/app.js",
     "outputWrapper": "var COMPILED=true;%output%}"
   },
-  "buildModules": [{
-    "name": "moduleEntries",
-    "src": "js/app-module-entries.js",
-    "dest": "dist/app-module-entries.min.js"
-  }, {
-    "name": "moduleApplication",
-    "src": "js/app-module-application.js",
-    "dest": "dist/app-module-application.min.js"
-  }]
+  "buildModules": {
+    "Todos.ctrls.Entries": {
+      "dest": "dist/app-module-entries.min.js"
+    },
+    "Todos.views.Application": {
+      "dest": "dist/app-module-application.min.js"
+    }
+  }
 }
