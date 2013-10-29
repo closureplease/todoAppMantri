@@ -7,16 +7,9 @@ goog.provide('Todos.app');
 goog.require('Todos.Router');
 goog.require('Todos.models.Store');
 
-
-// load independent modules, when done boot the Todo ember app
-yepnope({
-  load: ['/dist/app-module-entries.min.js', '/dist/app-module-application.min.js'],
-  complete: Todos.app.init
-});
-
-
 // boot the todo ember application
 Todos.app.init = function() {
+  console.log('All modules loaded. Initializing application...');
   Todos.App = Ember.Application.create({
     VERSION: '1.0',
     rootElement: '#todoapp',
@@ -62,5 +55,10 @@ Todos.app.init = function() {
       });
     }
   });
-
 };
+
+// load independent modules, when done boot the Todo ember app
+yepnope({
+  load: ['/dist/app-module-entries.min.js', '/dist/app-module-application.min.js'],
+  complete: Todos.app.init
+});
