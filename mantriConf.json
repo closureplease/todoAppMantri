@@ -10,7 +10,7 @@
 
   "build": {
     "src": "js/app.js",
-    "outputWrapper": "var COMPILED=true;%output%}"
+    "outputWrapper": "var BUILD=true;%output%"
   },
   "buildModules": {
     "Todos.ctrls.Entries": {
