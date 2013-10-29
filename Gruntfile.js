@@ -33,7 +33,7 @@ module.exports = function( grunt ) {
 
     mantriBuild: {
       options: {
-        debug: true
+        debug: false
       },
       todoApp: {
         // src can be omitted as this is also the default value.
