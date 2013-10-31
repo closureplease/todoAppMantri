@@ -38,7 +38,7 @@ module.exports = function( grunt ) {
       todoApp: {
         // src can be omitted as this is also the default value.
         src: 'mantriConf.json',
-        dest: 'js/app.min.js'
+        dest: 'dist/app.min.js'
       }
     },
 

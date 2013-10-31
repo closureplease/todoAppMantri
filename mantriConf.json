@@ -11,19 +11,19 @@
   "build": {
     "src": "js/app.js",
     "outputWrapper": "var BUILD=true;%output%",
-    "sourceMapFile": "js/app.min.js.map",
-    "sourceMappingURL": "/js/app.min.js.map"
+    "sourceMapFile": "dist/app.min.js.map",
+    "sourceMappingURL": "/dist/app.min.js.map"
   },
   "buildModules": {
     "Todos.ctrls.Entries": {
-      "dest": "js/app-module-entries.min.js",
-      "sourceMapFile": "js/app-module-entries.min.js.map",
-      "sourceMappingURL": "/js/app-module-entries.min.js.map"
+      "dest": "dist/app-module-entries.min.js",
+      "sourceMapFile": "dist/app-module-entries.min.js.map",
+      "sourceMappingURL": "/dist/app-module-entries.min.js.map"
     },
     "Todos.views.Application": {
-      "dest": "js/app-module-application.min.js",
-      "sourceMapFile": "js/app-module-application.min.js.map",
-      "sourceMappingURL": "/js/app-module-application.min.js.map"
+      "dest": "dist/app-module-application.min.js",
+      "sourceMapFile": "dist/app-module-application.min.js.map",
+      "sourceMappingURL": "/dist/app-module-application.min.js.map"
     }
   }
 }

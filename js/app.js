@@ -59,6 +59,6 @@ Todos.app.init = function() {
 
 // load independent modules, when done boot the Todo ember app
 yepnope({
-  load: ['/js/app-module-entries.min.js', '/js/app-module-application.min.js'],
+  load: ['/dist/app-module-entries.min.js', '/dist/app-module-application.min.js'],
   complete: Todos.app.init
 });
