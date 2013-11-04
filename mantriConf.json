@@ -10,6 +10,7 @@
 
   "build": {
     "src": "js/app.js",
+    "dest": "dist/app.min.js",
     "outputWrapper": "var BUILD=true;%output%",
     "sourceMapFile": "dist/app.min.js.map",
     "sourceMappingURL": "/dist/app.min.js.map"
